@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
+    font-family: Roboto;
     margin: 0;
 }
 
@@ -10,7 +12,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #e2e4e8;
     font-size: 18px;
 }
 
@@ -19,14 +21,36 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     display: flex;
 }
+
+.content {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    background-color: #1F2937;
+    display: flex;
+  }
+  
+  .main {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+  }
+  
+  .content .image {
+    display: flex;
+    height: 250px; /* Change height to auto */ /* Ensure image doesn't overflow parent container */
+     /* Add margin to separate image from text */
+  }
+  
