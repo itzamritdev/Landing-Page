@@ -38,19 +38,22 @@ a {
     padding-top: 50px;
     background-color: #1F2937;
     display: flex;
-  }
-  
-  .main {
+    flex: 1;
+    gap: 50px;
+}
+
+.main {
     display: flex;
+    flex: 1;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
     margin: 0;
-  }
-  
-  .content .image {
+}
+
+.content .image {
     display: flex;
-    height: 250px; /* Change height to auto */ /* Ensure image doesn't overflow parent container */
-     /* Add margin to separate image from text */
-  }
-  
+    height: 250px;
+    flex: 1;
+
+}
