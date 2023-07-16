@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     font-family: Roboto;
     margin: 0;
@@ -80,7 +81,8 @@ a {
 
 .information {
     padding-top: 50px;
-    
+    background-color: #ffffff;
+
 }
 
 .information .heading {
@@ -90,9 +92,26 @@ a {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    padding-bottom: 30px;
 }
 
 .information .image {
     display: flex;
     height: 100px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.container .info {
+    justify-content: center;
+    max-width: 200px;
+    text-align: center;
+    color: #4b5563;
 }
