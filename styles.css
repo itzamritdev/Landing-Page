@@ -40,6 +40,7 @@ a {
     display: flex;
     flex: 1;
     gap: 50px;
+    padding-bottom: 100px;
 }
 
 .main {
@@ -74,5 +75,24 @@ a {
     padding-left: 25px;
     border-radius: 5px;
     color: white;
+
+}
+
+.information {
+    padding-top: 50px;
     
+}
+
+.information .heading {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.information .image {
+    display: flex;
+    height: 100px;
 }
