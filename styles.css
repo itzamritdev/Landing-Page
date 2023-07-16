@@ -62,3 +62,7 @@ a {
     flex: 1;
 
 }
+
+.content button {
+    background-color: #3882f6;
+}
