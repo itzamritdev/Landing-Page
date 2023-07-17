@@ -133,3 +133,49 @@ a {
     font-weight: 1;
     color: #1f2937;
 }
+
+.quote .name {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.action {
+    background-color: #3882f6;
+    margin-left: 310px;
+    margin-right: 310px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action .title {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action .text {
+    color: #cdd8ec;
+}
+
+.action button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 28px;
+    padding-left: 28px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882f6;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
