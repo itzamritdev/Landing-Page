@@ -179,3 +179,12 @@ a {
     border-width: 3px;
     border-style: solid;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    background-color: #1F2937;
+    color: white;
+  }
